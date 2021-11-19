@@ -1,0 +1,162 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    box-sizing: border-box;
+    background-color:#ffe6e6;
+}
+
+.img{
+    width: 100px;
+    height: 80px;
+    margin-left: 25px;
+}
+
+#nav1{
+    font-size: 1.5rem;
+    color: rgb(67, 35, 94);
+    font-weight: 500;
+}
+#nav2{
+    font-size: 1.5rem;
+    color: rgb(67, 35, 94);
+    font-weight: 500;
+}
+#nav3{
+    font-size: 1.5rem;
+    color: rgb(67, 35, 94);
+    font-weight: 500;
+}
+#nav4{
+    font-size: 1.5rem;
+    color: rgb(67, 35, 94);
+    font-weight: 500;
+}
+
+.img1{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 95vh;
+    background-size: cover;
+    color: white;
+}
+.viewmenu{
+    padding: 8px;
+    border-radius: 10px;
+    width: 136px;
+    height: 50px;
+    background-color: yellowgreen;
+    color: white;
+    margin-right: 10px;
+}
+.ordernow{
+    padding: 8px;
+    border-radius: 10px;
+    width: 136px;
+    height: 50px;
+    background-color: transparent;
+    color: yellowgreen;
+    border-width: 2.5px;
+    border-color: yellowgreen;
+}
+.heading{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.para{
+    font-size: 22px;
+}
+
+.bg{
+    background-color: white ;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+.highlight{
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+.bg1{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+.img2{
+    width: 95%;
+    border-radius: 10px;
+}
+.non-veg-heading{
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.viewall{
+    color: rgb(255, 94, 0);
+}
+.foodplate{
+    align-self: center;
+}
+
+.img3{
+    width: 90%;
+    align-self: center;
+}
+.img4{
+    width: 10%;
+    margin-right: 15px;
+}
+.img5{
+    width: 270px;
+}
+
+.followus{
+    display: flex;
+    justify-content: center;
+}
+.bg-icons{
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+.icons{
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.para1{
+    font-size: 15px;
+}
+
+.footer-section{
+    background-color: rgb(68, 21, 56);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bg-5{
+    background-image: radial-gradient(#fff8db, #fae38c);;
+}
+
+.fs{
+    flex-wrap: wrap;
+}
+@media (max-width:576px){
+    .img{
+        height: 45px;
+        width: 45px;
+    }
+    .footer-heading{
+        font-size: 20px;
+    }
+}
